@@ -1,0 +1,21 @@
+@font-face {
+    font-family: yekan;
+    src: url(../fonts/fa/iranyekanwebregularf.woff2);
+}
+@font-face {
+    font-family: yekannumber;
+    src: url(../fonts/fa/Yekan.ttf);
+}
+:root{
+    --font-family:yekan;
+    --font-number:yekannumber;
+}
+.wrapper{
+    width: 100%;
+}
+.section2{
+    top: 10px;
+}
+.shop2{
+    top: 50px;
+}

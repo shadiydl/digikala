@@ -1,0 +1,34 @@
+.category {
+  width: 100%;
+  height: 152px;
+  display: flex;
+  justify-content: center;
+  .category-center {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    .category-center-item {
+      padding: 20px 40px;
+      margin: 0 auto;
+      img {
+        width: 52px;
+        height: 52px;
+      }
+      a {
+        display: -webkit-box;
+        box-orient: vertical;
+        -webkit-box-orient: vertical;
+        line-clamp: 2;
+        -webkit-line-clamp: 2;
+        overflow: hidden;
+        font-family: var(--font-family);
+        font-size: 12px;
+        color: #0c0c0c;
+        line-height: 20px;
+        text-decoration: none;
+        margin-right: 13px;
+      }
+    }
+  }
+}
