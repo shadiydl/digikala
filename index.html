@@ -9,8 +9,8 @@
     href="./images/ico/image-2.ico"
     type="image/x-icon"
     />
-    <link rel="stylesheet" href="./css/main.css" />
     <link rel="stylesheet" href="./node_modules/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
     <!-- #region wrapper-->
@@ -1591,7 +1591,8 @@
                       </div>
                       <div class="submenu-right-item">
                         <a href="#">مد و پوشاک</a>
-                        <div class="submenu-right-item-submenu"><div class="submenu-left-bottom">
+                        <div class="submenu-right-item-submenu">
+                          <div class="submenu-left-bottom">
                               <div class="submenu-left-top">
                                 <p>همه محصولات مد و پوشاک</p>
                               </div>
@@ -1620,7 +1621,7 @@
                                   <li>جلیقه مردانه</li>
                                 </ul>
                               </div>
-                                <div class="menu-item">
+                              <div class="menu-item">
                                 <h6>شلوار مردانه</h6>
                                 <ul>
                                   <li>شلوارک مردانه</li>
@@ -1632,13 +1633,13 @@
                                   <li>جوراب مردانه</li>
                                 </ul>
                               </div>
-                                <div class="menu-item">
-                                <h6>کیف مردانه</h6>
-                                <ul>
+                              <div class="menu-item">
+                                 <h6>کیف مردانه</h6>
+                                 <ul>
                                   <li>کیف پول مردانه</li>
-                                </ul>
+                                 </ul>
                               </div>
-                                <div class="menu-item">
+                              <div class="menu-item">
                                 <h6>کفش مردانه</h6>
                                 <ul>
                                   <li>نیم بوت مردانه</li>
@@ -1701,6 +1702,7 @@
                                 </ul>
                               </div>
                             </div>
+                            
                           </div>
                           <div class="submenu-left-bottom imk">
                             <div class="menu">
@@ -1899,7 +1901,8 @@
                                 <h6>شلوار مام فیت</h6>
                               </div>
                             </div>
-                          </div></div>
+                          </div>
+                        </div>
                       </div>
                       <div class="submenu-right-item">
                         <a href="#">طلا و نقره</a>
@@ -4028,8 +4031,19 @@
               <img src="./images/slider/market/image--2.png" alt="">
             </div>
             </div>
-            
-
+          </div>
+        </div>
+        <div class="online">
+          <label for="modal-3">
+            <img src="./images/header/12.svg" alt="">
+          </label>
+          <input type="radio" name="modal-3" id="modal-3">
+          <input type="radio" name="modal-3" id="close-3">
+          <div class="open-3">
+            <label for="close-3">&larr;</label>
+            <div class="online-item">
+              <p>پشتیبانی آنلاین</p>
+            </div>
           </div>
         </div>
       <!-- #endregion slider-->
@@ -5451,9 +5465,6 @@
           prevEl: ".swiper-button-prev",
         },
       });
-    </script>
-    <!-- Initialize Swiper -->
-    <script>
       var swiper = new Swiper(".mySlider", {
         spaceBetween: 0,
         centeredSlides: true,
@@ -5470,9 +5481,6 @@
           prevEl: ".swiper-button-prev",
         },
       });
-    </script>
-    <!-- Initialize Swiper -->
-    <script>
       var swiper = new Swiper(".mywonderful", {
         slidesPerView: 8.3,
         spaceBetween: 6,
@@ -5485,9 +5493,6 @@
           prevEl: ".swiper-button-prev",
         },
       });
-    </script>
-    <!-- Initialize Swiper -->
-    <script>
       var swiper = new Swiper(".mypopular", {
         slidesPerView: 9.5,
         spaceBetween: 0,
@@ -5500,9 +5505,6 @@
           prevEl: ".swiper-button-prev",
         },
       });
-    </script>
-    <!-- Initialize Swiper -->
-    <script>
       var swiper = new Swiper(".myshop", {
         slidesPerView: 4.3,
         spaceBetween: 0,
@@ -5511,20 +5513,18 @@
           prevEl: ".swiper-button-prev",
         },
       });
-    </script>
-    <script>
-    var swiper = new Swiper(".mycity", {
-      slidesPerView: 5.1,
-      spaceBetween: 8,
-      pagination: {
+      var swiper = new Swiper(".mycity", {
+        slidesPerView: 5.1,
+        spaceBetween: 8,
+        pagination: {
         el: ".swiper-pagination",
         clickable: true,
-      },
-       navigation: {
+       },
+        navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
-    });
+      });
   </script>
   </body>
 </html>
