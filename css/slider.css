@@ -58,7 +58,7 @@
   }
   .open-2 {
     width: 350px;
-    height: 400px;
+    height: 360px;
     border-radius: 15px;
     direction: ltr;
     overflow: auto;
@@ -71,6 +71,97 @@
     z-index: 2;
     display: none;
     padding: 15px;
+    p {
+      font-size: 16px;
+      font-family: yekan;
+      color: #444;
+      margin-left: 45px;
+      margin-top: -25px;
+    }
+    span {
+      font-size: 13px;
+      color: gray;
+      font-family: yekan;
+      position: relative;
+      top: 10px;
+      left: 165px;
+    }
+    .open-2-item {
+      display: flex;
+      justify-content: space-between;
+      .open-2-img {
+        width: 48%;
+        height: 250px;
+        background-color: #feebde;
+        margin-top: 30px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        direction: rtl;
+        padding-top: 10px;
+        padding-right: 10px;
+        h6 {
+          font-size: 16px;
+          font-family: yekan;
+          font-weight: normal;
+        }
+        h5 {
+          width: 100px;
+          height: 20px;
+          display: block;
+          font-size: 13px;
+          font-family: yekan;
+          font-weight: normal;
+          margin-top: 10px;
+          border: 1px solid #FF8042;
+          background-color: #FF8042;
+          border-radius: 15px;
+          padding-right: 15px;
+          border-top-right-radius: 0;
+          color: whitesmoke;
+        }
+        img {
+          width: 130px;
+          height: 130px;
+          padding-top: 95px;
+        }
+      }
+      .open-2-img2 {
+        width: 48%;
+        height: 240px;
+        background-color: #dbf3e6;
+        margin-top: 30px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        direction: rtl;
+        padding-top: 10px;
+        padding-right: 10px;
+        h6 {
+          font-size: 16px;
+          font-family: yekan;
+          font-weight: normal;
+        }
+        h5 {
+          width: 100px;
+          height: 20px;
+          display: block;
+          font-size: 13px;
+          font-family: yekan;
+          color: whitesmoke;
+          font-weight: normal;
+          margin-top: 10px;
+          border: 1px solid #029A49;
+          background-color: #029A49;
+          border-radius: 15px;
+          border-top-right-radius: 0;
+          padding-right: 15px;
+        }
+        img {
+          width: 130px;
+          height: 130px;
+          padding-top: 95px;
+        }
+      }
+    }
   }
   #modal-2:checked ~ .open-2 {
     display: block;

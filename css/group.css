@@ -25,7 +25,6 @@
       margin-right: 50px;
       margin-left: -130px;
       align-items: center;
-
       img {
         width: 100px;
         height: 100px;
@@ -46,6 +45,7 @@
     align-items: center;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     column-gap: 30px;
     .grouping-bottom-item {
       margin-right: 50px;
@@ -61,7 +61,6 @@
         font-weight: bold;
         padding-top: 10px;
         padding-right: 26px;
-        
       }
     }
   }
