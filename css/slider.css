@@ -238,6 +238,57 @@
         margin-left: 230px;
       }
     }
+    .online-item-2 {
+      width: 100%;
+      height: 120px;
+      direction: rtl;
+      padding-top: 10px;
+      h2 {
+        display: block;
+        width: fit-content;
+        font-family: yekan;
+        font-size: 18px;
+        margin-right: 10px;
+      }
+      p {
+        display: block;
+        width: fit-content;
+        font-family: yekan;
+        font-size: 13px;
+        margin-right: 10px;
+        margin-top: 15px;
+      }
+    }
+    .online-item-3 {
+      width: 90%;
+      direction: rtl;
+      line-height: 30px;
+      border: 1px solid lightgray;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      border-radius: 10px;
+      padding: 10px 0;
+      p {
+        font-family: yekan;
+        font-size: 14px;
+        margin-right: 15px;
+      }
+    }
+    .online-item-4{
+      display: block;
+      width: fit-content;
+      background-color: crimson;
+      border-radius: 30px;
+      margin: 10px auto;
+      line-height: 30px;
+      padding:  10px 20px;
+      p{
+        font-size: 14px;
+        font-family: yekan;
+        color: whitesmoke;
+      }
+      
+    }
   }
   #modal-3:checked ~ .open-3 {
     display: block;
